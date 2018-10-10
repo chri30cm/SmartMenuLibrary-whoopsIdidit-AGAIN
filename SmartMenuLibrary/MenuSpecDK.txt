@@ -1,0 +1,11 @@
+﻿Smartmenu
+Du vælger et menupunkt ved at trykke tallene 1-8, eller 0 hvis du vil afslutte.
+Plus;menu1
+Minus;menu2
+Gange;menu3
+Dividere;menu4
+Summere;menu5
+Minimum;menu6
+Maximum;menu7
+Gennemsnit;menu8
+Extra;menu9
