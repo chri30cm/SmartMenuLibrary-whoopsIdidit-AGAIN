@@ -1,5 +1,5 @@
 ﻿Smartmenu
-You choose a menu point by pressing numbers 1-8 and you exit the menu by pressing 0.
+You choose a menu point by pressing numbers 1-9 and you exit the menu by pressing 0.
 Add;menu1
 Substract;menu2
 Multiply;menu3

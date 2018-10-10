@@ -1,5 +1,5 @@
 ﻿Smartmenu
-Du vælger et menupunkt ved at trykke tallene 1-8, eller 0 hvis du vil afslutte.
+Du vælger et menupunkt ved at trykke tallene 1-9, eller 0 hvis du vil afslutte.
 Plus;menu1
 Minus;menu2
 Gange;menu3

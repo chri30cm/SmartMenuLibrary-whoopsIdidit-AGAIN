@@ -49,6 +49,8 @@ namespace SmartMenuLibrary
             {
                 Console.Clear();
                 menuStructure.ForEach(Console.WriteLine);
+                Console.WriteLine(" ");
+                Console.Write(": ");
                 int.TryParse(Console.ReadLine(), out int r);
                 Console.Clear();
                 switch (r)
