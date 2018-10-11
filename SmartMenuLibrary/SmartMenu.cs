@@ -10,6 +10,7 @@ namespace SmartMenuLibrary
     {
         List<string> menuStructure = new List<string>();
         List<string> menuPoints = new List<string>();
+        List<string> menuDescription = new List<string>();
 
         public void Load(string path)
         {
@@ -20,7 +21,7 @@ namespace SmartMenuLibrary
             else
             {
                 System.IO.StreamReader txtmenu =
-                    new System.IO.StreamReader(@"\Users\Christian\source\repos\SmartMenuLibrary!\SmartMenuLibrary\" + path);
+                    new System.IO.StreamReader(@"\Users\Bruger\source\repos\SmartMenuLibrary\SmartMenuLibrary\" + path);
 
                 string line;
                 int i = 1;
@@ -33,7 +34,8 @@ namespace SmartMenuLibrary
                 {
                     string[] splitMenu = line.Split(';');
                     menuStructure.Add(" " + i + ". " + splitMenu[0]);
-                    menuPoints.Add(splitMenu[1]);
+                    menuDescription.Add(splitMenu[1]);
+                    menuPoints.Add(splitMenu[2]);
                     i++;
                 }
                 menuStructure.Add(" ");
@@ -61,54 +63,63 @@ namespace SmartMenuLibrary
                         break;
 
                     case 1:
+                        Console.WriteLine(menuDescription[0]);
                         Bindings.Callid(menuPoints[0]);
                         Console.WriteLine();
                         Console.WriteLine("press enter to return");
                         break;
 
                     case 2:
+                        Console.WriteLine(menuDescription[1]);
                         Bindings.Callid(menuPoints[1]);
                         Console.WriteLine();
                         Console.WriteLine("press enter to return");
                         break;
 
                     case 3:
+                        Console.WriteLine(menuDescription[2]);
                         Bindings.Callid(menuPoints[2]);
                         Console.WriteLine();
                         Console.WriteLine("press enter to return");
                         break;
 
                     case 4:
+                        Console.WriteLine(menuDescription[3]);
                         Bindings.Callid(menuPoints[3]);
                         Console.WriteLine();
                         Console.WriteLine("press enter to return");
                         break;
 
                     case 5:
+                        Console.WriteLine(menuDescription[4]);
                         Bindings.Callid(menuPoints[4]);
                         Console.WriteLine();
                         Console.WriteLine("press enter to return");
                         break;
 
                     case 6:
+                        Console.WriteLine(menuDescription[5]);
                         Bindings.Callid(menuPoints[5]);
                         Console.WriteLine();
                         Console.WriteLine("press enter to return");
                         break;
 
                     case 7:
+                        Console.WriteLine(menuDescription[6]);
                         Bindings.Callid(menuPoints[6]);
                         Console.WriteLine();
                         Console.WriteLine("press enter to return");
                         break;
 
                     case 8:
+                        Console.WriteLine(menuDescription[7]);
                         Bindings.Callid(menuPoints[7]);
                         Console.WriteLine();
                         Console.WriteLine("press enter to return");
                         break;
 
                     case 9:
+                        Console.WriteLine(menuDescription[8]);
                         Bindings.Callid(menuPoints[8]);
                         Console.WriteLine();
                         Console.WriteLine("press enter to return");

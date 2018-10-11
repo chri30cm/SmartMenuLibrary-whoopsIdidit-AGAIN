@@ -10,10 +10,9 @@ namespace SmartMenuLibrary
         {
             if (menu_id == "menu1")
             {
-                Console.WriteLine("Enter 2 numbers which you wish to Add");
                 Console.WriteLine(" ");
                 string lineadd = Console.ReadLine();
-                Console.Write(" + ");
+                Console.WriteLine(" + ");
                 string lineadd2 = Console.ReadLine();
                 double.TryParse(lineadd, out double r);
                 double.TryParse(lineadd2, out double r2);
@@ -23,7 +22,6 @@ namespace SmartMenuLibrary
 
             else if (menu_id == "menu2")
             {
-                Console.WriteLine("Enter 2 numbers which you wish to Subtract");
                 Console.WriteLine(" ");
                 string linesub = Console.ReadLine();
                 Console.WriteLine("-");
@@ -36,7 +34,6 @@ namespace SmartMenuLibrary
 
             else if (menu_id == "menu3")
             {
-                Console.WriteLine("Enter 2 numbers which you wish to Multiply");
                 Console.WriteLine(" ");
                 string linemulti = Console.ReadLine();
                 Console.WriteLine("*");
@@ -49,7 +46,6 @@ namespace SmartMenuLibrary
 
             else if (menu_id == "menu4")
             {
-                Console.WriteLine("Enter 2 numbers which you wish to Divide");
                 Console.WriteLine(" ");
                 string linediv = Console.ReadLine();
                 Console.WriteLine("/");
@@ -57,13 +53,13 @@ namespace SmartMenuLibrary
                 double.TryParse(linediv, out double r);
                 double.TryParse(linediv2, out double r2);
                 Console.WriteLine(" ");
+
                 Console.WriteLine(r + " / " + r2 + " = " + Calculator.Divide(r, r2));
             }
 
             else if (menu_id == "menu5")
             {
                 List<double> numbers = new List<double>();
-                Console.WriteLine("Tast alle de tal ind du vil Summere og afslut med tom linje");
                 Console.WriteLine(" ");
                 while (double.TryParse(Console.ReadLine(), out double r) != false)
                 {
@@ -76,7 +72,6 @@ namespace SmartMenuLibrary
             else if (menu_id == "menu6")
             {
                 List<double> numbers = new List<double>();
-                Console.WriteLine("Tast alle de tal ind du vil finde Minumum af og afslut med tom linje");
                 Console.WriteLine(" ");
                 while (double.TryParse(Console.ReadLine(), out double r) != false)
                 {
@@ -89,7 +84,6 @@ namespace SmartMenuLibrary
             else if (menu_id == "menu7")
             {
                 List<double> numbers = new List<double>();
-                Console.WriteLine("Tast alle de tal ind du vil finde Maximum af og afslut med tom linje");
                 Console.WriteLine(" ");
                 while (double.TryParse(Console.ReadLine(), out double r) != false)
                 {
@@ -102,7 +96,6 @@ namespace SmartMenuLibrary
             else if (menu_id == "menu8")
             {
                 List<double> numbers = new List<double>();
-                Console.WriteLine("Tast alle de tal ind du vil finde Gennemsnittet af og afslut med tom linje");
                 Console.WriteLine(" ");
                 while (double.TryParse(Console.ReadLine(), out double r) != false)
                 {
@@ -114,7 +107,6 @@ namespace SmartMenuLibrary
 
             else if (menu_id == "menu9")
             {
-                Console.WriteLine("Jeg Elsker Dig :)");
                 Console.WriteLine(" ");
                 Console.WriteLine("tryk enter for at gå tilbage");
                 Console.WriteLine(Calculator.Haha_snydT(Console.ReadLine()));

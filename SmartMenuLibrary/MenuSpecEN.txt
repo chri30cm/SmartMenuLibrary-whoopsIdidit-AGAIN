@@ -1,11 +1,11 @@
 ﻿Smartmenu
 You choose a menu point by pressing numbers 1-9 and you exit the menu by pressing 0.
-Add;menu1
-Substract;menu2
-Multiply;menu3
-Divide;menu4
-Sum;menu5
-Minimum;menu6
-Maximum;menu7
-Average;menu8
-Extra;menu9
+Add;Type 2 numbers you want to add;menu1
+Subtract;Type 2 numbers you want to subtract;menu2
+Multiply;Type 2 numbers you want to multiply;menu3
+Divide;Type 2 numbers you want to divide;menu4
+Sum;Type all the numbers you want to sum;menu5
+Minimum;Type all the numbers you want to find minimum of;menu6
+Maximum;Type all the numbers you want to find maximum of;menu7
+Average;Type all the numbers you want to find average of;menu8
+Extra;I love you :);menu9
