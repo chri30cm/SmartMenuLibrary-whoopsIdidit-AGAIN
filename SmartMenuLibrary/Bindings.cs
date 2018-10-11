@@ -97,10 +97,29 @@ namespace SmartMenuLibrary
             {
                 List<double> numbers = new List<double>();
                 Console.WriteLine(" ");
-                while (double.TryParse(Console.ReadLine(), out double r) != false)
+
+
+                try
                 {
-                    numbers.Add(r);
+                    double hytteost = Console.ReadLine()
+                    
+                    if (string.IsNullOrEmpty(hytteost))
+                    {
+                            Console.WriteLine("fejl");
+                    }
+                    else
+                    {
+                            numbers.Add(r);
+                    }
+                    
                 }
+                catch 
+                {
+
+                    Console.WriteLine("Gedeost");
+                }
+               
+                
 
                 Console.WriteLine(" = " + Calculator.Average(numbers));
             }
@@ -108,7 +127,6 @@ namespace SmartMenuLibrary
             else if (menu_id == "menu9")
             {
                 Console.WriteLine(" ");
-                Console.WriteLine("tryk enter for at gå tilbage");
                 Console.WriteLine(Calculator.Haha_snydT(Console.ReadLine()));
             }
         }

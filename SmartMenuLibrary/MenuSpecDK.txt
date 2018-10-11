@@ -1,11 +1,11 @@
 ﻿Smartmenu
 Du vælger et menupunkt ved at trykke tallene 1-9, eller 0 hvis du vil afslutte.
-Plus;Tast de 2 tal du vil lægge sammen;menu1
-Minus;Tast de 2 tal du vil trække fra hinanden;menu2
-Gange;Tast de 2 tal du vil gange med hinanden;menu3
-Dividere;Tast de 2 tal du vil dividere med hinanden;menu4
-Summere;Tast alle de tal du vil lægge sammen;menu5
-Minimum;Tast alle de tal du vil finde minimum af;menu6
-Maximum;Tast alle de tal du vil finde maximum af;menu7
-Gennemsnit;Tast alle de tal du vil finde gennemsnittet af;menu8
-Extra;Jeg elsker dig :);menu9
+Plus;Tast de 2 tal du vil lægge sammen;tast enter for at gå tilbage til menupunkt;menu1
+Minus;Tast de 2 tal du vil trække fra hinanden;tast enter for at gå tilbage til menupunkt;menu2
+Gange;Tast de 2 tal du vil gange med hinanden;tast enter for at gå tilbage til menupunkt;menu3
+Dividere;Tast de 2 tal du vil dividere med hinanden;tast enter for at gå tilbage til menupunkt;menu4
+Summere;Tast alle de tal du vil lægge sammen;tast enter for at gå tilbage til menupunkt;menu5
+Minimum;Tast alle de tal du vil finde minimum af;tast enter for at gå tilbage til menupunkt;menu6
+Maximum;Tast alle de tal du vil finde maximum af;tast enter for at gå tilbage til menupunkt;menu7
+Gennemsnit;Tast alle de tal du vil finde gennemsnittet af;tast enter for at gå tilbage til menupunkt;menu8
+Extra;Jeg elsker dig :);tast enter for at gå tilbage til menupunkt;menu9
