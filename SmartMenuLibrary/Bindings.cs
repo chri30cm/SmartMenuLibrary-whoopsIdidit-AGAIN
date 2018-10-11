@@ -61,9 +61,21 @@ namespace SmartMenuLibrary
             {
                 List<double> numbers = new List<double>();
                 Console.WriteLine(" ");
-                while (double.TryParse(Console.ReadLine(), out double r) != false)
+
+                bool Looprunning = true;
+                while (Looprunning != false)
                 {
-                    numbers.Add(r);
+                    string input = Console.ReadLine();
+                    if (string.IsNullOrEmpty(input))
+                    {
+                        numbers.Add(0);
+                        Looprunning = false;
+                    }
+                    else
+                    {
+                        double inputD = double.Parse(input);
+                        numbers.Add(inputD);
+                    }
                 }
 
                 Console.WriteLine(" = " + Calculator.Sum(numbers));
@@ -73,9 +85,21 @@ namespace SmartMenuLibrary
             {
                 List<double> numbers = new List<double>();
                 Console.WriteLine(" ");
-                while (double.TryParse(Console.ReadLine(), out double r) != false)
+
+                bool Looprunning = true;
+                while (Looprunning != false)
                 {
-                    numbers.Add(r);
+                    string input = Console.ReadLine();
+                    if (string.IsNullOrEmpty(input))
+                    {
+                        numbers.Add(0);
+                        Looprunning = false;
+                    }
+                    else
+                    {
+                        double inputD = double.Parse(input);
+                        numbers.Add(inputD);
+                    }
                 }
 
                 Console.WriteLine(" = " + Calculator.Minimum(numbers));
@@ -85,9 +109,21 @@ namespace SmartMenuLibrary
             {
                 List<double> numbers = new List<double>();
                 Console.WriteLine(" ");
-                while (double.TryParse(Console.ReadLine(), out double r) != false)
+
+                bool Looprunning = true;
+                while (Looprunning != false)
                 {
-                    numbers.Add(r);
+                    string input = Console.ReadLine();
+                    if (string.IsNullOrEmpty(input))
+                    {
+                        numbers.Add(0);
+                        Looprunning = false;
+                    }
+                    else
+                    {
+                        double inputD = double.Parse(input);
+                        numbers.Add(inputD);
+                    }
                 }
 
                 Console.WriteLine(" = " + Calculator.Maximum(numbers));
@@ -98,28 +134,21 @@ namespace SmartMenuLibrary
                 List<double> numbers = new List<double>();
                 Console.WriteLine(" ");
 
-
-                try
+                bool Looprunning = true;
+                while (Looprunning != false)
                 {
-                    double hytteost = Console.ReadLine()
-                    
-                    if (string.IsNullOrEmpty(hytteost))
+                    string input = Console.ReadLine();
+                    if (string.IsNullOrEmpty(input))
                     {
-                            Console.WriteLine("fejl");
+                        numbers.Add(0);
+                        Looprunning = false;
                     }
                     else
                     {
-                            numbers.Add(r);
+                        double inputD = double.Parse(input);
+                        numbers.Add(inputD);
                     }
-                    
                 }
-                catch 
-                {
-
-                    Console.WriteLine("Gedeost");
-                }
-               
-                
 
                 Console.WriteLine(" = " + Calculator.Average(numbers));
             }
@@ -132,3 +161,25 @@ namespace SmartMenuLibrary
         }
     }
 }
+
+//try
+//{
+//    string hytteost = Console.ReadLine();
+
+//    if (string.IsNullOrEmpty(hytteost))
+//    {
+
+//            Console.WriteLine("fejl");
+//    }
+//    else
+//    {
+
+//        double hytteostD = Convert.ToDouble(hytteost);
+//        numbers.Add(hytteostD);
+//    }
+
+//}
+//catch 
+//{
+//    while
+//}
