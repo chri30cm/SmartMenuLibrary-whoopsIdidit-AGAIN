@@ -11,50 +11,41 @@ namespace SmartMenuLibrary
             if (menu_id == "menu1")
             {
                 Console.WriteLine(" ");
-                string lineadd = Console.ReadLine();
+                double input = double.Parse(Console.ReadLine());
                 Console.WriteLine(" + ");
-                string lineadd2 = Console.ReadLine();
-                double.TryParse(lineadd, out double r);
-                double.TryParse(lineadd2, out double r2);
+                double input2 = double.Parse(Console.ReadLine());
                 Console.WriteLine(" ");
-                Console.WriteLine(r + " + " + r2 + " = " + Calculator.Add(r, r2));
+                Console.WriteLine(input + " + " + input2 + " = " + Calculator.Add(input, input2));
             }
 
             else if (menu_id == "menu2")
             {
                 Console.WriteLine(" ");
-                string linesub = Console.ReadLine();
-                Console.WriteLine("-");
-                string linesub2 = Console.ReadLine();
-                double.TryParse(linesub, out double r);
-                double.TryParse(linesub2, out double r2);
+                double input = double.Parse(Console.ReadLine());
+                Console.WriteLine(" - ");
+                double input2 = double.Parse(Console.ReadLine());
                 Console.WriteLine(" ");
-                Console.WriteLine(r + " - " + r2 + " = " + Calculator.Subtract(r, r2));
+                Console.WriteLine(input + " - " + input2 + " = " + Calculator.Subtract(input, input2));
             }
 
             else if (menu_id == "menu3")
             {
                 Console.WriteLine(" ");
-                string linemulti = Console.ReadLine();
-                Console.WriteLine("*");
-                string linemulti2 = Console.ReadLine();
-                double.TryParse(linemulti, out double r);
-                double.TryParse(linemulti2, out double r2);
+                double input = double.Parse(Console.ReadLine());
+                Console.WriteLine(" * ");
+                double input2 = double.Parse(Console.ReadLine());
                 Console.WriteLine(" ");
-                Console.WriteLine(r + " * " + r2 + " = " + Calculator.Multiply(r, r2));
+                Console.WriteLine(input + " + " + input2 + " = " + Calculator.Multiply(input, input2));
             }
 
             else if (menu_id == "menu4")
             {
                 Console.WriteLine(" ");
-                string linediv = Console.ReadLine();
-                Console.WriteLine("/");
-                string linediv2 = Console.ReadLine();
-                double.TryParse(linediv, out double r);
-                double.TryParse(linediv2, out double r2);
+                double input = double.Parse(Console.ReadLine());
+                Console.WriteLine(" / ");
+                double input2 = double.Parse(Console.ReadLine());
                 Console.WriteLine(" ");
-
-                Console.WriteLine(r + " / " + r2 + " = " + Calculator.Divide(r, r2));
+                Console.WriteLine(input + " / " + input2 + " = " + Calculator.Divide(input, input2));
             }
 
             else if (menu_id == "menu5")
@@ -153,10 +144,14 @@ namespace SmartMenuLibrary
                 Console.WriteLine(" = " + Calculator.Average(numbers));
             }
 
-            else if (menu_id == "menu9")
+            if (menu_id == "menu9")
             {
                 Console.WriteLine(" ");
-                Console.WriteLine(Calculator.Haha_snydT(Console.ReadLine()));
+                double input = double.Parse(Console.ReadLine());
+                Console.WriteLine(" % ");
+                double input2 = double.Parse(Console.ReadLine());
+                Console.WriteLine(" ");
+                Console.WriteLine(input + " % " + input2 + " = " + Calculator.Procent(input, input2));
             }
         }
     }

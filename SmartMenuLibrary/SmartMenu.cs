@@ -55,9 +55,9 @@ namespace SmartMenuLibrary
                 menuStructure.ForEach(Console.WriteLine);
                 Console.WriteLine(" ");
                 Console.Write(": ");
-                int.TryParse(Console.ReadLine(), out int r);
+                int input = int.Parse(Console.ReadLine());
                 Console.Clear();
-                switch (r)
+                switch (input)
                 {
                     case 0:
                         Console.WriteLine(" :hej hej bye bye ");
@@ -122,10 +122,9 @@ namespace SmartMenuLibrary
 
                     case 9:
                         Console.WriteLine(menuDescription[8]);
-                        Console.WriteLine();
-                        Console.WriteLine(menuReturn[8]);
                         Bindings.Callid(menuPoints[8]);
                         Console.WriteLine();
+                        Console.WriteLine(menuReturn[8]);
                         break;
 
                     default:

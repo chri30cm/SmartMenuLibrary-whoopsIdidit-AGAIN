@@ -8,4 +8,4 @@ Summere;Tast alle de tal du vil lægge sammen;tast enter for at gå tilbage til 
 Minimum;Tast alle de tal du vil finde minimum af;tast enter for at gå tilbage til menupunkt;menu6
 Maximum;Tast alle de tal du vil finde maximum af;tast enter for at gå tilbage til menupunkt;menu7
 Gennemsnit;Tast alle de tal du vil finde gennemsnittet af;tast enter for at gå tilbage til menupunkt;menu8
-Extra;Jeg elsker dig :);tast enter for at gå tilbage til menupunkt;menu9
+Extra;Indtast først procentdelen du vil finde, og derefter tallet du gerne vil finde procentdelen fra;tast enter for at gå tilbage til menupunkt;menu9
